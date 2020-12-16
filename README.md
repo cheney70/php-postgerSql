@@ -1,2 +1,3 @@
 # php-postgerSql
-PHP install PgSQL extension Applicable to the swoft framework
+PHP install PgSQL extension 
+Applicable to the swoft framework
