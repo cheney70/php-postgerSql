@@ -8,9 +8,8 @@
             "email": "imcheney70@sina.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0"
+        "php": ">7.1"
     },
     "autoload": {
         "psr-4": {
