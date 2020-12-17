@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cheney\\Pgsql\\": "src"
+            "Swoft\\Pgsql\\": "src"
         }
     }
 }
