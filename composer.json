@@ -1,5 +1,5 @@
 {
-    "name": "cheney/pgsql",
+    "name": "swoft/pgsql",
     "description": "php pgsql",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "php": ">7.1"
+        "php": ">7.1",
+        "curtis18/swoft-pgsql": "^1.0"
     },
     "autoload": {
         "psr-4": {

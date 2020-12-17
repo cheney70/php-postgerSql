@@ -8,10 +8,10 @@ namespace PgsqlTest\Testing;
  */
 
 require_once __DIR__."/../vendor/autoload.php";
-use Cheney\Pgsql\Pgsql;
+use Cheney\Pgsql\Query\PdoPgsql;
 
-$pgsql = new Pgsql('postgres','postgres','','172.16.200.58');
+$pgsql = new PdoPgsql('postgres','postgres','','172.16.200.58');
 $res = $pgsql->table('users_tbl')
-    ->where('id','=',1)
-    ->find();
-print_r($res);
+    ->where('id',1)
+    ->findOne();
+print_r($res->toArray());
