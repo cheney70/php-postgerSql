@@ -10,11 +10,14 @@
     ],
     "require": {
         "php": ">7.1",
-        "curtis18/swoft-pgsql": "^1.0"
+        "curtis18/swoft-pgsql": "^1.0",
+        "illuminate/database": "^8.19",
+        "illuminate/events": "^8.19",
+        "illuminate/container": "^8.19"
     },
     "autoload": {
         "psr-4": {
-            "Swoft\\Pgsql\\": "src"
+            "Cheney\\Swoft\\Pgsql\\": "src"
         }
     }
 }

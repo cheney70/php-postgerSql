@@ -1,5 +1,5 @@
 <?php
-namespace Cheney\Pgsql\Exception;
+namespace Cheney\Swoft\Pgsql\Exception;
 
 use Exception;
 
